@@ -21,6 +21,7 @@ import java.util.List;
 )
 @RestController
 @RequestMapping("post")
+@CrossOrigin(origins = "*")        
 public class PostController {
     @Autowired
     Postservice postservice;
