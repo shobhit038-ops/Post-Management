@@ -28,6 +28,7 @@ import java.security.SecureRandom;
 )
 @RestController
 @RequestMapping("user")
+@CrossOrigin(origins = "*")
 public class UserController {
     @Autowired
     UserService userService;
